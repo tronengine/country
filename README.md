@@ -1,2 +1,2 @@
-# Countries with area code, continent and states.
+# Countries with area code, continent, states and currency.
 # License to TronEngine GPL
