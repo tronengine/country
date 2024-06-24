@@ -2,7 +2,8 @@
 
     return [
         "AF" => [
-            "code" => "+93", "country" => "Afghanistan", "continent" => "Asia",
+            "code" => "+93", "name" => "Afghanistan", "continent" => "Asia",
+            "currency" => ["name" => "Afghani", "code" => "AFN", "number" => "971"],
             "states" => [
                 ["code" => "BDS", "name" => "Badakhshān"],
                 ["code" => "BGL", "name" => "Baghlān"],
@@ -41,11 +42,13 @@
             ]
         ],
         "AX" => [
-            "code" => "+358", "country" => "Åland Islands", "continent" => "Europe",
+            "code" => "+358", "name" => "Åland Islands", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "AL" => [
-            "code" => "+355", "country" => "Albania", "continent" => "Europe",
+            "code" => "+355", "name" => "Albania", "continent" => "Europe",
+            "currency" => ["name" => "Lek", "code" => "ALL", "number" => "008"],
             "states" => [
                 ["code" => "01", "name" => "Berat"],
                 ["code" => "09", "name" => "Dibër"],
@@ -62,7 +65,8 @@
             ]
         ],
         "DZ" => [
-            "code" => "+213", "country" => "Algeria", "continent" => "Africa",
+            "code" => "+213", "name" => "Algeria", "continent" => "Africa",
+            "currency" => ["name" => "Algerian Dinar", "code" => "DZD", "number" => "012"],
             "states" => [
                 ["code" => "01", "name" => "Adrar"],
                 ["code" => "16", "name" => "Alger"],
@@ -115,11 +119,13 @@
             ]
         ],
         "AS" => [
-            "code" => "+687", "country" => "American Samoa", "continent" => "Oceania",
+            "code" => "+687", "name" => "American Samoa", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "AD" => [
-            "code" => "+376", "country" => "Andorra", "continent" => "Europe",
+            "code" => "+376", "name" => "Andorra", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "07", "name" => "Andorra la Vella"],
                 ["code" => "02", "name" => "Canillo"],
@@ -131,7 +137,8 @@
             ]
         ],
         "AO" => [
-            "code" => "+244", "country" => "Angola", "continent" => "Africa",
+            "code" => "+244", "name" => "Angola", "continent" => "Africa",
+            "currency" => ["name" => "Kwanza", "code" => "AOA", "number" => "973"],
             "states" => [
                 ["code" => "BGO", "name" => "Bengo"],
                 ["code" => "BGU", "name" => "Benguela"],
@@ -154,15 +161,18 @@
             ]
         ],
         "AI" => [
-            "code" => "+1264", "country" => "Anguilla", "continent" => "North America",
+            "code" => "+1264", "name" => "Anguilla", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => null
         ],
         "AQ" => [
-            "code" => "+672", "country" => "Antarctica", "continent" => "Antarctica",
+            "code" => "+672", "name" => "Antarctica", "continent" => "Antarctica",
+            "currency" => ["name" => null, "code" => null, "number" => null],
             "states" => null
         ],
         "AG" => [
-            "code" => "+1268", "country" => "Antigua and Barbuda", "continent" => "North America",
+            "code" => "+1268", "name" => "Antigua and Barbuda", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "10", "name" => "Barbuda"],
                 ["code" => "11", "name" => "Redonda"],
@@ -175,7 +185,8 @@
             ]
         ],
         "AR" => [
-            "code" => "+54", "country" => "Argentina", "continent" => "South America",
+            "code" => "+54", "name" => "Argentina", "continent" => "South America",
+            "currency" => ["name" => "Argentine Peso", "code" => "ARS", "number" => "032"],
             "states" => [
                 ["code" => "B", "name" => "Buenos Aires"],
                 ["code" => "K", "name" => "Catamarca"],
@@ -204,7 +215,8 @@
             ]
         ],
         "AM" => [
-            "code" => "+374", "country" => "Armenia", "continent" => "Asia",
+            "code" => "+374", "name" => "Armenia", "continent" => "Asia",
+            "currency" => ["name" => "Armenian Dram", "code" => "AMD", "number" => "051"],
             "states" => [
                 ["code" => "AG", "name" => "Aragac̣otn"],
                 ["code" => "AR", "name" => "Ararat"],
@@ -220,11 +232,13 @@
             ]
         ],
         "AW" => [
-            "code" => "+297", "country" => "Aruba", "continent" => "North America",
+            "code" => "+297", "name" => "Aruba", "continent" => "North America",
+            "currency" => ["name" => "Aruban Florin", "code" => "AWG", "number" => "533"],
             "states" => null
         ],
         "AU" => [
-            "code" => "+61", "country" => "Australia", "continent" => "Oceania",
+            "code" => "+61", "name" => "Australia", "continent" => "Oceania",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => [
                 ["code" => "ACT", "name" => "Australian Capital Territory"],
                 ["code" => "NSW", "name" => "New South Wales"],
@@ -237,7 +251,8 @@
             ]
         ],
         "AT" => [
-            "code" => "+43", "country" => "Austria", "continent" => "Europe",
+            "code" => "+43", "name" => "Austria", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "B", "name" => "Burgenland"],
                 ["code" => "K", "name" => "Kärnten"],
@@ -251,13 +266,15 @@
             ]
         ],
         "AZ" => [
-            "code" => "+994", "country" => "Azerbaijan", "continent" => "Asia",
+            "code" => "+994", "name" => "Azerbaijan", "continent" => "Asia",
+            "currency" => ["name" => "Azerbaijanian Manat", "code" => "AZN", "number" => "944"],
             "states" => [
                 ["code" => "NX", "name" => "Naxçıvan"],
             ]
         ],
         "BS" => [
-            "code" => "+1242", "country" => "Bahamas", "continent" => "North America",
+            "code" => "+1242", "name" => "Bahamas", "continent" => "North America",
+            "currency" => ["name" => "Bahamian Dollar", "code" => "BSD", "number" => "044"],
             "states" => [
                 ["code" => "AK", "name" => "Acklins"],
                 ["code" => "BY", "name" => "Berry Islands"],
@@ -293,7 +310,8 @@
             ]
         ],
         "BH" => [
-            "code" => "+973", "country" => "Bahrain", "continent" => "Asia",
+            "code" => "+973", "name" => "Bahrain", "continent" => "Asia",
+            "currency" => ["name" => "Bahraini Dinar", "code" => "BHD", "number" => "048"],
             "states" => [
                 ["code" => "14", "name" => "Al Janūbīyah"],
                 ["code" => "13", "name" => "Al Manāmah"],
@@ -303,7 +321,8 @@
             ]
         ],
         "BD" => [
-            "code" => "+880", "country" => "Bangladesh", "continent" => "Asia",
+            "code" => "+880", "name" => "Bangladesh", "continent" => "Asia",
+            "currency" => ["name" => "Taka", "code" => "BDT", "number" => "050"],
             "states" => [
                 ["code" => "A", "name" => "Barisal"],
                 ["code" => "B", "name" => "Chittagong"],
@@ -315,7 +334,8 @@
             ]
         ],
         "BB" => [
-            "code" => "+1246", "country" => "Barbados", "continent" => "North America",
+            "code" => "+1246", "name" => "Barbados", "continent" => "North America",
+            "currency" => ["name" => "Barbados Dollar", "code" => "BBD", "number" => "052"],
             "states" => [
                 ["code" => "01", "name" => "Christ Church"],
                 ["code" => "02", "name" => "Saint Andrew"],
@@ -331,7 +351,8 @@
             ]
         ],
         "BY" => [
-            "code" => "+375", "country" => "Belarus", "continent" => "Europe",
+            "code" => "+375", "name" => "Belarus", "continent" => "Europe",
+            "currency" => ["name" => "Belarussian Ruble", "code" => "BYN", "number" => "933"],
             "states" => [
                 ["code" => "BR", "name" => "Brestskaya voblasts"],
                 ["code" => "HO", "name" => "Homyel'skaya voblasts"],
@@ -343,7 +364,8 @@
             ]
         ],
         "BE" => [
-            "code" => "+375", "country" => "Belgium", "continent" => "Europe",
+            "code" => "+375", "name" => "Belgium", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "BRU", "name" => "Brussels Hoofdstedelijk Gewest"],
                 ["code" => "WAL", "name" => "Région Wallonne"],
@@ -351,7 +373,8 @@
             ]
         ],
         "BZ" => [
-            "code" => "+501", "country" => "Belize", "continent" => "North America",
+            "code" => "+501", "name" => "Belize", "continent" => "North America",
+            "currency" => ["name" => "Belize Dollar", "code" => "BZD", "number" => "084"],
             "states" => [
                 ["code" => "BZ", "name" => "Belize"],
                 ["code" => "CY", "name" => "Cayo"],
@@ -362,7 +385,8 @@
             ]
         ],
         "BJ" => [
-            "code" => "+229", "country" => "Benin", "continent" => "Africa",
+            "code" => "+229", "name" => "Benin", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "AL", "name" => "Alibori"],
                 ["code" => "AK", "name" => "Atakora"],
@@ -379,11 +403,13 @@
             ]
         ],
         "BM" => [
-            "code" => "+1 441", "country" => "Bermuda", "continent" => "North America",
+            "code" => "+1 441", "name" => "Bermuda", "continent" => "North America",
+            "currency" => ["name" => "Bermudian Dollar", "code" => "BMD", "number" => "060"],
             "states" => null
         ],
         "BT" => [
-            "code" => "+975", "country" => "Bhutan", "continent" => "Asia",
+            "code" => "+975", "name" => "Bhutan", "continent" => "Asia",
+            "currency" => ["name" => "Ngultrum", "code" => "BTN", "number" => "064"],
             "states" => [
                 ["code" => "33", "name" => "Bumthang"],
                 ["code" => "12", "name" => "Chhukha"],
@@ -408,7 +434,8 @@
             ]
         ],
         "BO" => [
-            "code" => "+591", "country" => "Bolivia", "continent" => "South America",
+            "code" => "+591", "name" => "Bolivia", "continent" => "South America",
+            "currency" => ["name" => "Boliviano", "code" => "BOB", "number" => "068"],
             "states" => [
                 ["code" => "H", "name" => "Chuquisaca"],
                 ["code" => "C", "name" => "Cochabamba"],
@@ -422,7 +449,8 @@
             ]
         ],
         "BA" => [
-            "code" => "+387", "country" => "Bosnia and Herzegovina", "continent" => "Europe",
+            "code" => "+387", "name" => "Bosnia and Herzegovina", "continent" => "Europe",
+            "currency" => ["name" => "Convertible Mark", "code" => "BAM", "number" => "977"],
             "states" => [
                 ["code" => "BRC", "name" => "Brčko distrikt"],
                 ["code" => "BIH", "name" => "Federacija Bosna i Hercegovina"],
@@ -430,7 +458,8 @@
             ]
         ],
         "BW" => [
-            "code" => "+267", "country" => "Botswana", "continent" => "Africa",
+            "code" => "+267", "name" => "Botswana", "continent" => "Africa",
+            "currency" => ["name" => "Pula", "code" => "BWP", "number" => "072"],
             "states" => [
                 ["code" => "CE", "name" => "Central"],
                 ["code" => "CH", "name" => "Chobe"],
@@ -451,11 +480,13 @@
             ]
         ],
         "BV" => [
-            "code" => "+47", "country" => "Bouvet Island", "continent" => "Antarctica",
+            "code" => "+47", "name" => "Bouvet Island", "continent" => "Antarctica",
+            "currency" => ["name" => "Norwegian Krone", "code" => "NOK", "number" => "578"],
             "states" => null
         ],
         "BR" => [
-            "code" => "+55", "country" => "Brazil", "continent" => "South America",
+            "code" => "+55", "name" => "Brazil", "continent" => "South America",
+            "currency" => ["name" => "Brazilian Real", "code" => "BRL", "number" => "986"],
             "states" => [
                 ["code" => "AC", "name" => "Acre"],
                 ["code" => "AL", "name" => "Alagoas"],
@@ -487,11 +518,13 @@
             ]
         ],
         "IO" => [
-            "code" => "+246", "country" => "British Indian Ocean Territory", "continent" => "Asia",
+            "code" => "+246", "name" => "British Indian Ocean Territory", "continent" => "Asia",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "BN" => [
-            "code" => "+673", "country" => "Brunei", "continent" => "Asia",
+            "code" => "+673", "name" => "Brunei", "continent" => "Asia",
+            "currency" => ["name" => "Brunei Dollar", "code" => "BND", "number" => "096"],
             "states" => [
                 ["code" => "BE", "name" => "Belait"],
                 ["code" => "BM", "name" => "Brunei-Muara"],
@@ -500,7 +533,8 @@
             ]
         ],
         "BG" => [
-            "code" => "+359", "country" => "Bulgaria", "continent" => "Europe",
+            "code" => "+359", "name" => "Bulgaria", "continent" => "Europe",
+            "currency" => ["name" => "Bulgarian Lev", "code" => "BGN", "number" => "975"],
             "states" => [
                 ["code" => "01", "name" => "Blagoevgrad"],
                 ["code" => "02", "name" => "Burgas"],
@@ -533,7 +567,8 @@
             ]
         ],
         "BF" => [
-            "code" => "+226", "country" => "Burkina Faso", "continent" => "Africa",
+            "code" => "+226", "name" => "Burkina Faso", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "01", "name" => "Boucle du Mouhoun"],
                 ["code" => "02", "name" => "Cascades"],
@@ -551,7 +586,8 @@
             ]
         ],
         "BI" => [
-            "code" => "+257", "country" => "Burundi", "continent" => "Africa",
+            "code" => "+257", "name" => "Burundi", "continent" => "Africa",
+            "currency" => ["name" => "Burundi Franc", "code" => "BIF", "number" => "108"],
             "states" => [
                 ["code" => "BB", "name" => "Bubanza"],
                 ["code" => "BM", "name" => "Bujumbura Mairie"],
@@ -573,7 +609,8 @@
             ]
         ],
         "KH" => [
-            "code" => "+855", "country" => "Cambodia", "continent" => "Asia",
+            "code" => "+855", "name" => "Cambodia", "continent" => "Asia",
+            "currency" => ["name" => "Riel", "code" => "KHR", "number" => "116"],
             "states" => [
                 ["code" => "2", "name" => "Baat Dambang"],
                 ["code" => "1", "name" => "Banteay Mean Chey"],
@@ -602,7 +639,8 @@
             ]
         ],
         "CM" => [
-            "code" => "+237", "country" => "Cameroon", "continent" => "Africa",
+            "code" => "+237", "name" => "Cameroon", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "AD", "name" => "Adamaoua"],
                 ["code" => "CE", "name" => "Centre"],
@@ -617,7 +655,8 @@
             ]
         ],
         "CA" => [
-            "code" => "+1", "country" => "Canada", "continent" => "North America",
+            "code" => "+1", "name" => "Canada", "continent" => "North America",
+            "currency" => ["name" => "Canadian Dollar", "code" => "CAD", "number" => "124"],
             "states" => [
                 ["code" => "AB", "name" => "Alberta"],
                 ["code" => "BC", "name" => "British Columbia"],
@@ -635,18 +674,21 @@
             ]
         ],
         "CV" => [
-            "code" => "+238", "country" => "Cape Verde", "continent" => "Africa",
+            "code" => "+238", "name" => "Cape Verde", "continent" => "Africa",
+            "currency" => ["name" => "Cabo Verde Escudo", "code" => "CVE", "number" => "132"],
             "states" => [
                 ["code" => "B", "name" => "Ilhas de Barlavento"],
                 ["code" => "S", "name" => "Ilhas de Sotavento"],
             ]
         ],
         "KY" => [
-            "code" => "+1 345", "country" => "Cayman Islands", "continent" => "North America",
+            "code" => "+1 345", "name" => "Cayman Islands", "continent" => "North America",
+            "currency" => ["name" => "Cayman Islands Dollar", "code" => "KYD", "number" => "136"],
             "states" => null
         ],
         "CF" => [
-            "code" => "+236", "country" => "Central African Republic", "continent" => "Africa",
+            "code" => "+236", "name" => "Central African Republic", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "BB", "name" => "Bamingui-Bangoran"],
                 ["code" => "BGF", "name" => "Bangui"],
@@ -668,7 +710,8 @@
             ]
         ],
         "TD" => [
-            "code" => "+235", "country" => "Chad", "continent" => "Africa",
+            "code" => "+235", "name" => "Chad", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "BA", "name" => "Al Baṭḩah"],
                 ["code" => "LC", "name" => "Al Buḩayrah"],
@@ -695,7 +738,8 @@
             ]
         ],
         "CL" => [
-            "code" => "+56", "country" => "Chile", "continent" => "South America",
+            "code" => "+56", "name" => "Chile", "continent" => "South America",
+            "currency" => ["name" => "Chilean Peso", "code" => "CLP", "number" => "152"],
             "states" => [
                 ["code" => "AI", "name" => "Aisén del General Carlos Ibañez del Campo"],
                 ["code" => "AN", "name" => "Antofagasta"],
@@ -715,7 +759,8 @@
             ]
         ],
         "CN" => [
-            "code" => "+86", "country" => "China", "continent" => "Asia",
+            "code" => "+86", "name" => "China", "continent" => "Asia",
+            "currency" => ["name" => "Yuan Renminbi", "code" => "CNY", "number" => "156"],
             "states" => [
                 ["code" => "45", "name" => "Guangxi"],
                 ["code" => "15", "name" => "Nei Mongol"],
@@ -757,15 +802,18 @@
             ]
         ],
         "CX" => [
-            "code" => "+64", "country" => "Christmas Island", "continent" => "Asia",
+            "code" => "+64", "name" => "Christmas Island", "continent" => "Asia",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => null
         ],
         "CC" => [
-            "code" => "+61", "country" => "Cocos (Keeling] Islands", "continent" => "Asia",
+            "code" => "+61", "name" => "Cocos (Keeling) Islands", "continent" => "Asia",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => null
         ],
         "CO" => [
-            "code" => "+57", "country" => "Colombia", "continent" => "South America",
+            "code" => "+57", "name" => "Colombia", "continent" => "South America",
+            "currency" => ["name" => "Colombian Peso", "code" => "COP", "number" => "170"],
             "states" => [
                 ["code" => "AMA", "name" => "Amazonas"],
                 ["code" => "ANT", "name" => "Antioquia"],
@@ -803,7 +851,8 @@
             ]
         ],
         "KM" => [
-            "code" => "+269", "country" => "Comoros", "continent" => "Africa",
+            "code" => "+269", "name" => "Comoros", "continent" => "Africa",
+            "currency" => ["name" => "Comoro Franc", "code" => "KMF", "number" => "174"],
             "states" => [
                 ["code" => "A", "name" => "Anjouan"],
                 ["code" => "G", "name" => "Grande Comore"],
@@ -811,7 +860,8 @@
             ]
         ],
         "CG" => [
-            "code" => "+242", "country" => "Congo - Brazzaville", "continent" => "Africa",
+            "code" => "+242", "name" => "Congo - Brazzaville", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "11", "name" => "Bouenza"],
                 ["code" => "BZV", "name" => "Brazzaville"],
@@ -828,7 +878,8 @@
             ]
         ],
         "CD" => [
-            "code" => "+243", "country" => "Congo - Kinshasa", "continent" => "Africa",
+            "code" => "+243", "name" => "Congo - Kinshasa", "continent" => "Africa",
+            "currency" => ["name" => "Congolese Franc", "code" => "CDF", "number" => "976"],
             "states" => [
                 ["code" => "BN", "name" => "Bandundu"],
                 ["code" => "BC", "name" => "Bas-Congo"],
@@ -844,11 +895,13 @@
             ]
         ],
         "CK" => [
-            "code" => "+682", "country" => "Cook Islands", "continent" => "Oceania",
+            "code" => "+682", "name" => "Cook Islands", "continent" => "Oceania",
+            "currency" => ["name" => "New Zealand Dollar", "code" => "NZD", "number" => "554"],
             "states" => null
         ],
         "CR" => [
-            "code" => "+506", "country" => "Costa Rica", "continent" => "North America",
+            "code" => "+506", "name" => "Costa Rica", "continent" => "North America",
+            "currency" => ["name" => "Costa Rican Colon", "code" => "CRC", "number" => "188"],
             "states" => [
                 ["code" => "A", "name" => "Alajuela"],
                 ["code" => "C", "name" => "Cartago"],
@@ -860,7 +913,8 @@
             ]
         ],
         "CI" => [
-            "code" => "+225", "country" => "Cote D'ivoire", "continent" => "Africa",
+            "code" => "+225", "name" => "Cote D'ivoire", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "06", "name" => "18 Montagnes"],
                 ["code" => "16", "name" => "Agnébi"],
@@ -884,7 +938,8 @@
             ]
         ],
         "HR" => [
-            "code" => "+385", "country" => "Croatia", "continent" => "Europe",
+            "code" => "+385", "name" => "Croatia", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "07", "name" => "Bjelovarsko-bilogorska županija"],
                 ["code" => "12", "name" => "Brodsko-posavska županija"],
@@ -910,7 +965,8 @@
             ]
         ],
         "CU" => [
-            "code" => "+53", "country" => "Cuba", "continent" => "North America",
+            "code" => "+53", "name" => "Cuba", "continent" => "North America",
+            "currency" => ["name" => "Cuban Peso", "code" => "CUP", "number" => "192"],
             "states" => [
                 ["code" => "15", "name" => "Artemisa"],
                 ["code" => "09", "name" => "Camagüey"],
@@ -931,7 +987,8 @@
             ]
         ],
         "CY" => [
-            "code" => "+357", "country" => "Cyprus", "continent" => "Asia",
+            "code" => "+357", "name" => "Cyprus", "continent" => "Asia",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "04", "name" => "Ammochostos"],
                 ["code" => "06", "name" => "Keryneia"],
@@ -942,7 +999,8 @@
             ]
         ],
         "CZ" => [
-            "code" => "+420", "country" => "Czech Republic", "continent" => "Europe",
+            "code" => "+420", "name" => "Czech Republic", "continent" => "Europe",
+            "currency" => ["name" => "Czech Koruna", "code" => "CZK", "number" => "203"],
             "states" => [
                 ["code" => "JM", "name" => "Jihomoravský kraj"],
                 ["code" => "JC", "name" => "Jihočeský kraj"],
@@ -961,7 +1019,8 @@
             ]
         ],
         "DK" => [
-            "code" => "+45", "country" => "Denmark", "continent" => "Europe",
+            "code" => "+45", "name" => "Denmark", "continent" => "Europe",
+            "currency" => ["name" => "Danish Krone", "code" => "DKK", "number" => "208"],
             "states" => [
                 ["code" => "84", "name" => "Hovedstaden"],
                 ["code" => "82", "name" => "Midtjylland"],
@@ -971,7 +1030,8 @@
             ]
         ],
         "DJ" => [
-            "code" => "+253", "country" => "Djibouti", "continent" => "Africa",
+            "code" => "+253", "name" => "Djibouti", "continent" => "Africa",
+            "currency" => ["name" => "Djibouti Franc", "code" => "DJF", "number" => "262"],
             "states" => [
                 ["code" => "AS", "name" => "Ali Sabieh"],
                 ["code" => "AR", "name" => "Arta"],
@@ -982,7 +1042,8 @@
             ]
         ],
         "DM" => [
-            "code" => "+1 767", "country" => "Dominica", "continent" => "North America",
+            "code" => "+1 767", "name" => "Dominica", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "02", "name" => "Saint Andrew"],
                 ["code" => "03", "name" => "Saint David"],
@@ -997,7 +1058,8 @@
             ]
         ],
         "DO" => [
-            "code" => "+1 809", "country" => "Dominican Republic", "continent" => "North America",
+            "code" => "+1 809", "name" => "Dominican Republic", "continent" => "North America",
+            "currency" => ["name" => "Dominican Peso", "code" => "DOP", "number" => "214"],
             "states" => [
                 ["code" => "33", "name" => "Cibao Nordeste"],
                 ["code" => "34", "name" => "Cibao Noroeste"],
@@ -1012,7 +1074,8 @@
             ]
         ],
         "EC" => [
-            "code" => "+593", "country" => "Ecuador", "continent" => "South America",
+            "code" => "+593", "name" => "Ecuador", "continent" => "South America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "A", "name" => "Azuay"],
                 ["code" => "B", "name" => "Bolívar"],
@@ -1041,7 +1104,8 @@
             ]
         ],
         "EG" => [
-            "code" => "+20", "country" => "Egypt", "continent" => "Africa",
+            "code" => "+20", "name" => "Egypt", "continent" => "Africa",
+            "currency" => ["name" => "Egyptian Pound", "code" => "EGP", "number" => "818"],
             "states" => [
                 ["code" => "DK", "name" => "Ad Daqahlīyah"],
                 ["code" => "BA", "name" => "Al Baḩr al Aḩmar"],
@@ -1075,7 +1139,8 @@
             ]
         ],
         "SV" => [
-            "code" => "+503", "country" => "El Salvador", "continent" => "North America",
+            "code" => "+503", "name" => "El Salvador", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "AH", "name" => "Ahuachapán"],
                 ["code" => "CA", "name" => "Cabañas"],
@@ -1094,14 +1159,16 @@
             ]
         ],
         "GQ" => [
-            "code" => "+240", "country" => "Equatorial Guinea", "continent" => "Africa",
+            "code" => "+240", "name" => "Equatorial Guinea", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "C", "name" => "Región Continental"],
                 ["code" => "I", "name" => "Región Insular"],
             ]
         ],
         "ER" => [
-            "code" => "+291", "country" => "Eritrea", "continent" => "Africa",
+            "code" => "+291", "name" => "Eritrea", "continent" => "Africa",
+            "currency" => ["name" => "Nakfa", "code" => "ERN", "number" => "232"],
             "states" => [
                 ["code" => "MA", "name" => "Al Awsaţ"],
                 ["code" => "DU", "name" => "Al Janūbĩ"],
@@ -1112,7 +1179,8 @@
             ]
         ],
         "EE" => [
-            "code" => "+372", "country" => "Estonia", "continent" => "Europe",
+            "code" => "+372", "name" => "Estonia", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "37", "name" => "Harjumaa"],
                 ["code" => "39", "name" => "Hiiumaa"],
@@ -1132,7 +1200,8 @@
             ]
         ],
         "ET" => [
-            "code" => "+251", "country" => "Ethiopia", "continent" => "Africa",
+            "code" => "+251", "name" => "Ethiopia", "continent" => "Africa",
+            "currency" => ["name" => "Ethiopian Birr", "code" => "ETB", "number" => "230"],
             "states" => [
                 ["code" => "BE", "name" => "Bīnshangul Gumuz"],
                 ["code" => "DD", "name" => "Dirē Dawa"],
@@ -1148,15 +1217,18 @@
             ]
         ],
         "FK" => [
-            "code" => "+500", "country" => "Falkland Islands (Malvinas]", "continent" => "South America",
+            "code" => "+500", "name" => "Falkland Islands (Malvinas)", "continent" => "South America",
+            "currency" => ["name" => "Falkland Islands Pound", "code" => "FKP", "number" => "238"],
             "states" => null
         ],
         "FO" => [
-            "code" => "+298", "country" => "Faroe Islands", "continent" => "Europe",
+            "code" => "+298", "name" => "Faroe Islands", "continent" => "Europe",
+            "currency" => ["name" => "Danish Krone", "code" => "DKK", "number" => "208"],
             "states" => null
         ],
         "FJ" => [
-            "code" => "+679", "country" => "Fiji", "continent" => "Oceania",
+            "code" => "+679", "name" => "Fiji", "continent" => "Oceania",
+            "currency" => ["name" => "Fiji Dollar", "code" => "FJD", "number" => "242"],
             "states" => [
                 ["code" => "C", "name" => "Central"],
                 ["code" => "E", "name" => "Eastern"],
@@ -1166,7 +1238,8 @@
             ]
         ],
         "FI" => [
-            "code" => "+358", "country" => "Finland", "continent" => "Europe",
+            "code" => "+358", "name" => "Finland", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "01", "name" => "Ahvenanmaan maakunta"],
                 ["code" => "02", "name" => "Etelä-Karjala"],
@@ -1190,7 +1263,8 @@
             ]
         ],
         "FR" => [
-            "code" => "+33", "country" => "France", "continent" => "Europe",
+            "code" => "+33", "name" => "France", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "A", "name" => "Alsace"],
                 ["code" => "B", "name" => "Aquitaine"],
@@ -1217,19 +1291,23 @@
             ]
         ],
         "GF" => [
-            "code" => "+594", "country" => "French Guiana", "continent" => "South America",
+            "code" => "+594", "name" => "French Guiana", "continent" => "South America",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "PF" => [
-            "code" => "+689", "country" => "French Polynesia", "continent" => "Oceania",
+            "code" => "+689", "name" => "French Polynesia", "continent" => "Oceania",
+            "currency" => ["name" => "CFP Franc", "code" => "XPF", "number" => "953"],
             "states" => null
         ],
         "TF" => [
-            "code" => "+262", "country" => "French Southern Territories", "continent" => "Antarctica",
+            "code" => "+262", "name" => "French Southern Territories", "continent" => "Antarctica",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "GA" => [
-            "code" => "+241", "country" => "Gabon", "continent" => "Africa",
+            "code" => "+241", "name" => "Gabon", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BEAC", "code" => "XAF", "number" => "950"],
             "states" => [
                 ["code" => "1", "name" => "Estuaire"],
                 ["code" => "2", "name" => "Haut-Ogooué"],
@@ -1243,7 +1321,8 @@
             ]
         ],
         "GM" => [
-            "code" => "+220", "country" => "Gambia", "continent" => "Africa",
+            "code" => "+220", "name" => "Gambia", "continent" => "Africa",
+            "currency" => ["name" => "Dalasi", "code" => "GMD", "number" => "270"],
             "states" => [
                 ["code" => "B", "name" => "Banjul"],
                 ["code" => "M", "name" => "Central River"],
@@ -1254,7 +1333,8 @@
             ]
         ],
         "GE" => [
-            "code" => "+995", "country" => "Georgia", "continent" => "Asia",
+            "code" => "+995", "name" => "Georgia", "continent" => "Asia",
+            "currency" => ["name" => "Lari", "code" => "GEL", "number" => "981"],
             "states" => [
                 ["code" => "AB", "name" => "Abkhazia"],
                 ["code" => "AJ", "name" => "Ajaria"],
@@ -1271,7 +1351,8 @@
             ]
         ],
         "DE" => [
-            "code" => "+49", "country" => "Germany", "continent" => "Europe",
+            "code" => "+49", "name" => "Germany", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "BW", "name" => "Baden-Württemberg"],
                 ["code" => "BY", "name" => "Bayern"],
@@ -1292,7 +1373,8 @@
             ]
         ],
         "GH" => [
-            "code" => "+233", "country" => "Ghana", "continent" => "Africa",
+            "code" => "+233", "name" => "Ghana", "continent" => "Africa",
+            "currency" => ["name" => "Ghana Cedi", "code" => "GHS", "number" => "936"],
             "states" => [
                 ["code" => "AH", "name" => "Ashanti"],
                 ["code" => "BA", "name" => "Brong-Ahafo"],
@@ -1307,11 +1389,13 @@
             ]
         ],
         "GI" => [
-            "code" => "+350", "country" => "Gibraltar", "continent" => "Europe",
+            "code" => "+350", "name" => "Gibraltar", "continent" => "Europe",
+            "currency" => ["name" => "Gibraltar Pound", "code" => "GIP", "number" => "292"],
             "states" => null
         ],
         "GR" => [
-            "code" => "+30", "country" => "Greece", "continent" => "Europe",
+            "code" => "+30", "name" => "Greece", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "A", "name" => "Anatoliki Makedonia kai Thraki"],
                 ["code" => "I", "name" => "Attiki"],
@@ -1329,7 +1413,8 @@
             ]
         ],
         "GL" => [
-            "code" => "+299", "country" => "Greenland", "continent" => "North America",
+            "code" => "+299", "name" => "Greenland", "continent" => "North America",
+            "currency" => ["name" => "Danish Krone", "code" => "DKK", "number" => "208"],
             "states" => [
                 ["code" => "KU", "name" => "Kommune Kujalleq"],
                 ["code" => "SM", "name" => "Kommuneqarfik Sermersooq"],
@@ -1338,7 +1423,8 @@
             ]
         ],
         "GD" => [
-            "code" => "+1 473", "country" => "Grenada", "continent" => "North America",
+            "code" => "+1 473", "name" => "Grenada", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "01", "name" => "Saint Andrew"],
                 ["code" => "02", "name" => "Saint David"],
@@ -1350,15 +1436,18 @@
             ]
         ],
         "GP" => [
-            "code" => "+590", "country" => "Guadeloupe", "continent" => "North America",
+            "code" => "+590", "name" => "Guadeloupe", "continent" => "North America",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "GU" => [
-            "code" => "+1 671", "country" => "Guam", "continent" => "Oceania",
+            "code" => "+1 671", "name" => "Guam", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "GT" => [
-            "code" => "+502", "country" => "Guatemala", "continent" => "North America",
+            "code" => "+502", "name" => "Guatemala", "continent" => "North America",
+            "currency" => ["name" => "Quetzal", "code" => "GTQ", "number" => "320"],
             "states" => [
                 ["code" => "AV", "name" => "Alta Verapaz"],
                 ["code" => "BV", "name" => "Baja Verapaz"],
@@ -1385,11 +1474,13 @@
             ]
         ],
         "GG" => [
-            "code" => "+5399", "country" => "Guernsey", "continent" => "Europe",
+            "code" => "+5399", "name" => "Guernsey", "continent" => "Europe",
+            "currency" => ["name" => "Pound Sterling", "code" => "GBP", "number" => "826"],
             "states" => null
         ],
         "GN" => [
-            "code" => "+224", "country" => "Guinea", "continent" => "Africa",
+            "code" => "+224", "name" => "Guinea", "continent" => "Africa",
+            "currency" => ["name" => "Guinea Franc", "code" => "GNF", "number" => "324"],
             "states" => [
                 ["code" => "B", "name" => "Boké"],
                 ["code" => "C", "name" => "Conakry"],
@@ -1402,7 +1493,8 @@
             ]
         ],
         "GW" => [
-            "code" => "+245", "country" => "Guinea-bissau", "continent" => "Africa",
+            "code" => "+245", "name" => "Guinea-bissau", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "L", "name" => "Leste"],
                 ["code" => "N", "name" => "Norte"],
@@ -1410,7 +1502,8 @@
             ]
         ],
         "GY" => [
-            "code" => "+592", "country" => "Guyana", "continent" => "South America",
+            "code" => "+592", "name" => "Guyana", "continent" => "South America",
+            "currency" => ["name" => "Guyana Dollar", "code" => "GYD", "number" => "328"],
             "states" => [
                 ["code" => "BA", "name" => "Barima-Waini"],
                 ["code" => "CU", "name" => "Cuyuni-Mazaruni"],
@@ -1425,7 +1518,8 @@
             ]
         ],
         "HT" => [
-            "code" => "+509", "country" => "Haiti", "continent" => "North America",
+            "code" => "+509", "name" => "Haiti", "continent" => "North America",
+            "currency" => ["name" => "Gourde", "code" => "HTG", "number" => "332"],
             "states" => [
                 ["code" => "AR", "name" => "Artibonite"],
                 ["code" => "CE", "name" => "Centre"],
@@ -1440,15 +1534,18 @@
             ]
         ],
         "HM" => [
-            "code" => "+672", "country" => "Heard Island and Mcdonald Islands", "continent" => "Antarctica",
+            "code" => "+672", "name" => "Heard Island and Mcdonald Islands", "continent" => "Antarctica",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => null
         ],
         "VA" => [
-            "code" => "+379", "country" => "Holy See (Vatican City State]", "continent" => "Europe",
+            "code" => "+379", "name" => "Holy See (Vatican City State)", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "HN" => [
-            "code" => "+31", "country" => "Honduras", "continent" => "North America",
+            "code" => "+31", "name" => "Honduras", "continent" => "North America",
+            "currency" => ["name" => "Lempira", "code" => "HNL", "number" => "340"],
             "states" => [
                 ["code" => "AT", "name" => "Atlántida"],
                 ["code" => "CH", "name" => "Choluteca"],
@@ -1471,11 +1568,13 @@
             ]
         ],
         "HK" => [
-            "code" => "+852", "country" => "Hong Kong", "continent" => "Asia",
+            "code" => "+852", "name" => "Hong Kong", "continent" => "Asia",
+            "currency" => ["name" => "Hong Kong Dollar", "code" => "HKD", "number" => "344"],
             "states" => null
         ],
         "HU" => [
-            "code" => "+36", "country" => "Hungary", "continent" => "Europe",
+            "code" => "+36", "name" => "Hungary", "continent" => "Europe",
+            "currency" => ["name" => "Forint", "code" => "HUF", "number" => "348"],
             "states" => [
                 ["code" => "BA", "name" => "Baranya"],
                 ["code" => "BZ", "name" => "Borsod-Abaúj-Zemplén"],
@@ -1523,7 +1622,8 @@
             ]
         ],
         "IS" => [
-            "code" => "+354", "country" => "Iceland", "continent" => "Europe",
+            "code" => "+354", "name" => "Iceland", "continent" => "Europe",
+            "currency" => ["name" => "Iceland Krona", "code" => "ISK", "number" => "352"],
             "states" => [
                 ["code" => "7", "name" => "Austurland"],
                 ["code" => "1", "name" => "Höfuðborgarsvæði utan Reykjavíkur"],
@@ -1537,7 +1637,8 @@
             ]
         ],
         "IN" => [
-            "code" => "+91", "country" => "India", "continent" => "Asia",
+            "code" => "+91", "name" => "India", "continent" => "Asia",
+            "currency" => ["name" => "Indian Rupee", "code" => "INR", "number" => "356"],
             "states" => [
                 ["code" => "AN", "name" => "Andaman and Nicobar Islands"],
                 ["code" => "CH", "name" => "Chandigarh"],
@@ -1578,7 +1679,8 @@
             ]
         ],
         "ID" => [
-            "code" => "+62", "country" => "Indonesia", "continent" => "Asia",
+            "code" => "+62", "name" => "Indonesia", "continent" => "Asia",
+            "currency" => ["name" => "Rupiah", "code" => "IDR", "number" => "360"],
             "states" => [
                 ["code" => "JW", "name" => "Jawa"],
                 ["code" => "KA", "name" => "Kalimantan"],
@@ -1590,7 +1692,8 @@
             ]
         ],
         "IR" => [
-            "code" => "+98", "country" => "Iran", "continent" => "Asia",
+            "code" => "+98", "name" => "Iran", "continent" => "Asia",
+            "currency" => ["name" => "Iranian Rial", "code" => "IRR", "number" => "364"],
             "states" => [
                 ["code" => "32", "name" => "Alborz"],
                 ["code" => "03", "name" => "Ardabīl"],
@@ -1626,7 +1729,8 @@
             ]
         ],
         "IQ" => [
-            "code" => "+964", "country" => "Iraq", "continent" => "Asia",
+            "code" => "+964", "name" => "Iraq", "continent" => "Asia",
+            "currency" => ["name" => "Iraqi Dinar", "code" => "IQD", "number" => "368"],
             "states" => [
                 ["code" => "AN", "name" => "Al Anbār"],
                 ["code" => "BA", "name" => "Al Başrah"],
@@ -1649,7 +1753,8 @@
             ]
         ],
         "IE" => [
-            "code" => "+353", "country" => "Ireland", "continent" => "Europe",
+            "code" => "+353", "name" => "Ireland", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "C", "name" => "Connaught"],
                 ["code" => "L", "name" => "Leinster"],
@@ -1658,22 +1763,13 @@
             ]
         ],
         "IM" => [
-            "code" => "+44", "country" => "Isle of Man", "continent" => "Europe",
+            "code" => "+44", "name" => "Isle of Man", "continent" => "Europe",
+            "currency" => ["name" => "Pound Sterling", "code" => "GBP", "number" => "826"],
             "states" => null
         ],
-        "IL" => [
-            "code" => "+972", "country" => "Israel", "continent" => "Asia",
-            "states" => [
-                ["code" => "D", "name" => "HaDarom"],
-                ["code" => "M", "name" => "HaMerkaz"],
-                ["code" => "Z", "name" => "HaTsafon"],
-                ["code" => "HA", "name" => "H̱efa"],
-                ["code" => "TA", "name" => "Tel-Aviv"],
-                ["code" => "JM", "name" => "Yerushalayim"],
-            ]
-        ],
         "IT" => [
-            "code" => "+39", "country" => "Italy", "continent" => "Europe",
+            "code" => "+39", "name" => "Italy", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "65", "name" => "Abruzzo"],
                 ["code" => "77", "name" => "Basilicata"],
@@ -1698,7 +1794,8 @@
             ]
         ],
         "JM" => [
-            "code" => "+1 876", "country" => "Jamaica", "continent" => "North America",
+            "code" => "+1 876", "name" => "Jamaica", "continent" => "North America",
+            "currency" => ["name" => "Jamaican Dollar", "code" => "JMD", "number" => "388"],
             "states" => [
                 ["code" => "13", "name" => "Clarendon"],
                 ["code" => "09", "name" => "Hanover"],
@@ -1717,7 +1814,8 @@
             ]
         ],
         "JP" => [
-            "code" => "+81", "country" => "Japan", "continent" => "Asia",
+            "code" => "+81", "name" => "Japan", "continent" => "Asia",
+            "currency" => ["name" => "Yen", "code" => "JPY", "number" => "392"],
             "states" => [
                 ["code" => "23", "name" => "Aiti"],
                 ["code" => "05", "name" => "Akita"],
@@ -1769,11 +1867,13 @@
             ]
         ],
         "JE" => [
-            "code" => "+44", "country" => "Jersey", "continent" => "Europe",
+            "code" => "+44", "name" => "Jersey", "continent" => "Europe",
+            "currency" => ["name" => "Pound Sterling", "code" => "GBP", "number" => "826"],
             "states" => null
         ],
         "JO" => [
-            "code" => "+962", "country" => "Jordan", "continent" => "Asia",
+            "code" => "+962", "name" => "Jordan", "continent" => "Asia",
+            "currency" => ["name" => "Jordanian Dinar", "code" => "JOD", "number" => "400"],
             "states" => [
                 ["code" => "BA", "name" => "Al Balqā\'"],
                 ["code" => "AQ", "name" => "Al ʽAqabah"],
@@ -1790,7 +1890,8 @@
             ]
         ],
         "KZ" => [
-            "code" => "+7", "country" => "Kazakhstan", "continent" => "Asia",
+            "code" => "+7", "name" => "Kazakhstan", "continent" => "Asia",
+            "currency" => ["name" => "Tenge", "code" => "KZT", "number" => "398"],
             "states" => [
                 ["code" => "ALA", "name" => "Almaty"],
                 ["code" => "ALM", "name" => "Almaty oblysy"],
@@ -1811,7 +1912,8 @@
             ]
         ],
         "KE" => [
-            "code" => "+254", "country" => "Kenya", "continent" => "Africa",
+            "code" => "+254", "name" => "Kenya", "continent" => "Africa",
+            "currency" => ["name" => "Kenyan Shilling", "code" => "KES", "number" => "404"],
             "states" => [
                 ["code" => "200", "name" => "Central"],
                 ["code" => "300", "name" => "Coast"],
@@ -1824,7 +1926,8 @@
             ]
         ],
         "KI" => [
-            "code" => "+689", "country" => "Kiribati", "continent" => "Oceania",
+            "code" => "+689", "name" => "Kiribati", "continent" => "Oceania",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => [
                 ["code" => "G", "name" => "Gilbert Islands"],
                 ["code" => "L", "name" => "Line Islands"],
@@ -1832,7 +1935,8 @@
             ]
         ],
         "KP" => [
-            "code" => "+850", "country" => "North Korea", "continent" => "Asia",
+            "code" => "+850", "name" => "North Korea", "continent" => "Asia",
+            "currency" => ["name" => "North Korean Won", "code" => "KPW", "number" => "408"],
             "states" => [
                 ["code" => "04", "name" => "Chagang"],
                 ["code" => "07", "name" => "Kangwon"],
@@ -1848,7 +1952,8 @@
             ]
         ],
         "KR" => [
-            "code" => "+82", "country" => "South Korea", "continent" => "Asia",
+            "code" => "+82", "name" => "South Korea", "continent" => "Asia",
+            "currency" => ["name" => "Won", "code" => "KRW", "number" => "410"],
             "states" => [
                 ["code" => "26", "name" => "Busan-gwangyeoksi"],
                 ["code" => "43", "name" => "Chungcheongbuk-do"],
@@ -1870,7 +1975,8 @@
             ]
         ],
         "KW" => [
-            "code" => "+965", "country" => "Kuwait", "continent" => "Asia",
+            "code" => "+965", "name" => "Kuwait", "continent" => "Asia",
+            "currency" => ["name" => "Kuwaiti Dinar", "code" => "KWD", "number" => "414"],
             "states" => [
                 ["code" => "AH", "name" => "Al Aḩmadi"],
                 ["code" => "FA", "name" => "Al Farwānīyah"],
@@ -1881,7 +1987,8 @@
             ]
         ],
         "KG" => [
-            "code" => "+996", "country" => "Kyrgyzstan", "continent" => "Asia",
+            "code" => "+996", "name" => "Kyrgyzstan", "continent" => "Asia",
+            "currency" => ["name" => "Som", "code" => "KGS", "number" => "417"],
             "states" => [
                 ["code" => "B", "name" => "Batken"],
                 ["code" => "GB", "name" => "Bishkek"],
@@ -1894,7 +2001,8 @@
             ]
         ],
         "LA" => [
-            "code" => "+856", "country" => "Lao People's Democratic Republic", "continent" => "Asia",
+            "code" => "+856", "name" => "Lao People's Democratic Republic", "continent" => "Asia",
+            "currency" => ["name" => "Kip", "code" => "LAK", "number" => "418"],
             "states" => [
                 ["code" => "AT", "name" => "Attapu"],
                 ["code" => "BK", "name" => "Bokèo"],
@@ -1917,7 +2025,8 @@
             ]
         ],
         "LV" => [
-            "code" => "+371", "country" => "Latvia", "continent" => "Europe",
+            "code" => "+371", "name" => "Latvia", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "001", "name" => "Aglonas novads"],
                 ["code" => "002", "name" => "Aizkraukles novads"],
@@ -2041,7 +2150,8 @@
             ]
         ],
         "LB" => [
-            "code" => "+961", "country" => "Lebanon", "continent" => "Asia",
+            "code" => "+961", "name" => "Lebanon", "continent" => "Asia",
+            "currency" => ["name" => "Lebanese Pound", "code" => "LBP", "number" => "422"],
             "states" => [
                 ["code" => "AK", "name" => "Aakkâr"],
                 ["code" => "BH", "name" => "Baalbek-Hermel"],
@@ -2054,7 +2164,8 @@
             ]
         ],
         "LS" => [
-            "code" => "+266", "country" => "Lesotho", "continent" => "Africa",
+            "code" => "+266", "name" => "Lesotho", "continent" => "Africa",
+            "currency" => ["name" => "Loti", "code" => "LSL", "number" => "426"],
             "states" => [
                 ["code" => "D", "name" => "Berea"],
                 ["code" => "B", "name" => "Butha-Buthe"],
@@ -2069,7 +2180,8 @@
             ]
         ],
         "LR" => [
-            "code" => "+231", "country" => "Liberia", "continent" => "Africa",
+            "code" => "+231", "name" => "Liberia", "continent" => "Africa",
+            "currency" => ["name" => "Liberian Dollar", "code" => "LRD", "number" => "430"],
             "states" => [
                 ["code" => "BM", "name" => "Bomi"],
                 ["code" => "BG", "name" => "Bong"],
@@ -2089,7 +2201,8 @@
             ]
         ],
         "LY" => [
-            "code" => "+218", "country" => "Libya", "continent" => "Africa",
+            "code" => "+218", "name" => "Libya", "continent" => "Africa",
+            "currency" => ["name" => "Libyan Dinar", "code" => "LYD", "number" => "434"],
             "states" => [
                 ["code" => "BU", "name" => "Al Buţnān"],
                 ["code" => "JA", "name" => "Al Jabal al Akhḑar"],
@@ -2116,7 +2229,8 @@
             ]
         ],
         "LI" => [
-            "code" => "+423", "country" => "Liechtenstein", "continent" => "Europe",
+            "code" => "+423", "name" => "Liechtenstein", "continent" => "Europe",
+            "currency" => ["name" => "Swiss Franc", "code" => "CHF", "number" => "756"],
             "states" => [
                 ["code" => "01", "name" => "Balzers"],
                 ["code" => "02", "name" => "Eschen"],
@@ -2132,7 +2246,8 @@
             ]
         ],
         "LT" => [
-            "code" => "+370", "country" => "Lithuania", "continent" => "Europe",
+            "code" => "+370", "name" => "Lithuania", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "AL", "name" => "Alytaus Apskritis"],
                 ["code" => "KU", "name" => "Kauno Apskritis"],
@@ -2147,7 +2262,8 @@
             ]
         ],
         "LU" => [
-            "code" => "+352", "country" => "Luxembourg", "continent" => "Europe",
+            "code" => "+352", "name" => "Luxembourg", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "D", "name" => "Diekirch"],
                 ["code" => "G", "name" => "Grevenmacher"],
@@ -2155,11 +2271,13 @@
             ]
         ],
         "MO" => [
-            "code" => "+853", "country" => "Macau", "continent" => "Asia",
+            "code" => "+853", "name" => "Macau", "continent" => "Asia",
+            "currency" => ["name" => "Pataca", "code" => "MOP", "number" => "446"],
             "states" => null
         ],
         "MK" => [
-            "code" => "+389", "country" => "Macedonia", "continent" => "Europe",
+            "code" => "+389", "name" => "Macedonia", "continent" => "Europe",
+            "currency" => ["name" => "Denar", "code" => "MKD", "number" => "807"],
             "states" => [
                 ["code" => "01", "name" => "Aerodrom"],
                 ["code" => "02", "name" => "Aračinovo"],
@@ -2248,7 +2366,8 @@
             ]
         ],
         "MG" => [
-            "code" => "+261", "country" => "Madagascar", "continent" => "Africa",
+            "code" => "+261", "name" => "Madagascar", "continent" => "Africa",
+            "currency" => ["name" => "Malagasy Ariary", "code" => "MGA", "number" => "969"],
             "states" => [
                 ["code" => "T", "name" => "Antananarivo"],
                 ["code" => "D", "name" => "Antsiranana"],
@@ -2259,7 +2378,8 @@
             ]
         ],
         "MW" => [
-            "code" => "+265", "country" => "Malawi", "continent" => "Africa",
+            "code" => "+265", "name" => "Malawi", "continent" => "Africa",
+            "currency" => ["name" => "Kwacha", "code" => "MWK", "number" => "454"],
             "states" => [
                 ["code" => "C", "name" => "Central Region"],
                 ["code" => "N", "name" => "Northern Region"],
@@ -2267,7 +2387,8 @@
             ]
         ],
         "MY" => [
-            "code" => "+60", "country" => "Malaysia", "continent" => "Asia",
+            "code" => "+60", "name" => "Malaysia", "continent" => "Asia",
+            "currency" => ["name" => "Malaysian Ringgit", "code" => "MYR", "number" => "458"],
             "states" => [
                 ["code" => "KUL", "name" => "Wilayah Persekutuan Kuala Lumpur"],
                 ["code" => "LBN", "name" => "Wilayah Persekutuan Labuan"],
@@ -2288,7 +2409,8 @@
             ]
         ],
         "MV" => [
-            "code" => "+960", "country" => "Maldives", "continent" => "Asia",
+            "code" => "+960", "name" => "Maldives", "continent" => "Asia",
+            "currency" => ["name" => "Rufiyaa", "code" => "MVR", "number" => "462"],
             "states" => [
                 ["code" => "CE", "name" => "Central"],
                 ["code" => "MLE", "name" => "Male"],
@@ -2301,7 +2423,8 @@
             ]
         ],
         "ML" => [
-            "code" => "+223", "country" => "Mali", "continent" => "Africa",
+            "code" => "+223", "name" => "Mali", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "BKO", "name" => "Bamako"],
                 ["code" => "7", "name" => "Gao"],
@@ -2315,7 +2438,8 @@
             ]
         ],
         "MT" => [
-            "code" => "+356", "country" => "Malta", "continent" => "Europe",
+            "code" => "+356", "name" => "Malta", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "01", "name" => "Attard"],
                 ["code" => "02", "name" => "Balzan"],
@@ -2388,18 +2512,21 @@
             ]
         ],
         "MH" => [
-            "code" => "+691", "country" => "Marshall Islands", "continent" => "Oceania",
+            "code" => "+691", "name" => "Marshall Islands", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "L", "name" => "Ralik chain"],
                 ["code" => "T", "name" => "Ratak chain"],
             ]
         ],
         "MQ" => [
-            "code" => "+596", "country" => "Martinique", "continent" => "North America",
+            "code" => "+596", "name" => "Martinique", "continent" => "North America",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "MR" => [
-            "code" => "+222", "country" => "Mauritania", "continent" => "Africa",
+            "code" => "+222", "name" => "Mauritania", "continent" => "Africa",
+            "currency" => ["name" => "Ouguiya", "code" => "MRU", "number" => "929"],
             "states" => [
                 ["code" => "07", "name" => "Adrar"],
                 ["code" => "03", "name" => "Assaba"],
@@ -2417,7 +2544,8 @@
             ]
         ],
         "MU" => [
-            "code" => "+230", "country" => "Mauritius", "continent" => "Africa",
+            "code" => "+230", "name" => "Mauritius", "continent" => "Africa",
+            "currency" => ["name" => "Mauritius Rupee", "code" => "MUR", "number" => "480"],
             "states" => [
                 ["code" => "AG", "name" => "Agalega Islands"],
                 ["code" => "BR", "name" => "Beau Bassin-Rose Hill"],
@@ -2439,11 +2567,13 @@
             ]
         ],
         "YT" => [
-            "code" => "+262", "country" => "Mayotte", "continent" => "Africa",
+            "code" => "+262", "name" => "Mayotte", "continent" => "Africa",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "MX" => [
-            "code" => "+52", "country" => "Mexico", "continent" => "North America",
+            "code" => "+52", "name" => "Mexico", "continent" => "North America",
+            "currency" => ["name" => "Mexican Peso", "code" => "MXN", "number" => "484"],
             "states" => [
                 ["code" => "DIF", "name" => "Distrito Federal"],
                 ["code" => "AGU", "name" => "Aguascalientes"],
@@ -2480,7 +2610,8 @@
             ]
         ],
         "FM" => [
-            "code" => "+692", "country" => "Micronesia", "continent" => "Oceania",
+            "code" => "+692", "name" => "Micronesia", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "TRK", "name" => "Chuuk"],
                 ["code" => "KSA", "name" => "Kosrae"],
@@ -2489,7 +2620,8 @@
             ]
         ],
         "MD" => [
-            "code" => "+373", "country" => "Moldova", "continent" => "Europe",
+            "code" => "+373", "name" => "Moldova", "continent" => "Europe",
+            "currency" => ["name" => "Moldovan Leu", "code" => "MDL", "number" => "498"],
             "states" => [
                 ["code" => "AN", "name" => "Anenii Noi"],
                 ["code" => "BS", "name" => "Basarabeasca"],
@@ -2531,7 +2663,8 @@
             ]
         ],
         "MC" => [
-            "code" => "+377", "country" => "Monaco", "continent" => "Europe",
+            "code" => "+377", "name" => "Monaco", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "FO", "name" => "Fontvieille"],
                 ["code" => "JE", "name" => "Jardin Exotique"],
@@ -2553,7 +2686,8 @@
             ]
         ],
         "MN" => [
-            "code" => "+976", "country" => "Mongolia", "continent" => "Asia",
+            "code" => "+976", "name" => "Mongolia", "continent" => "Asia",
+            "currency" => ["name" => "Tugrik", "code" => "MNT", "number" => "496"],
             "states" => [
                 ["code" => "073", "name" => "Arhangay"],
                 ["code" => "071", "name" => "Bayan-Ölgiy"],
@@ -2580,7 +2714,8 @@
             ]
         ],
         "ME" => [
-            "code" => "+382", "country" => "Montenegro", "continent" => "Europe",
+            "code" => "+382", "name" => "Montenegro", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "01", "name" => "Andrijevica"],
                 ["code" => "02", "name" => "Bar"],
@@ -2608,11 +2743,13 @@
             ]
         ],
         "MS" => [
-            "code" => "+1 664", "country" => "Montserrat", "continent" => "North America",
+            "code" => "+1 664", "name" => "Montserrat", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => null
         ],
         "MA" => [
-            "code" => "+212", "country" => "Morocco", "continent" => "Africa",
+            "code" => "+212", "name" => "Morocco", "continent" => "Africa",
+            "currency" => ["name" => "", "code" => "", "number" => ""],
             "states" => [
                 ["code" => "09", "name" => "Chaouia-Ouardigha"],
                 ["code" => "10", "name" => "Doukhala-Abda"],
@@ -2633,7 +2770,8 @@
             ]
         ],
         "MZ" => [
-            "code" => "+258", "country" => "Mozambique", "continent" => "Africa",
+            "code" => "+258", "name" => "Mozambique", "continent" => "Africa",
+            "currency" => ["name" => "Mozambique Metical", "code" => "MZN", "number" => "943"],
             "states" => [
                 ["code" => "P", "name" => "Cabo Delgado"],
                 ["code" => "G", "name" => "Gaza"],
@@ -2649,7 +2787,8 @@
             ]
         ],
         "MM" => [
-            "code" => "+95", "country" => "Myanmar", "continent" => "Asia",
+            "code" => "+95", "name" => "Myanmar", "continent" => "Asia",
+            "currency" => ["name" => "Kyat", "code" => "MMK", "number" => "104"],
             "states" => [
                 ["code" => "07", "name" => "Ayeyarwady"],
                 ["code" => "02", "name" => "Bago"],
@@ -2668,7 +2807,8 @@
             ]
         ],
         "NA" => [
-            "code" => "+264", "country" => "Namibia", "continent" => "Africa",
+            "code" => "+264", "name" => "Namibia", "continent" => "Africa",
+            "currency" => ["name" => "Namibia Dollar", "code" => "NAD", "number" => "516"],
             "states" => [
                 ["code" => "ER", "name" => "Erongo"],
                 ["code" => "HA", "name" => "Hardap"],
@@ -2687,7 +2827,8 @@
             ]
         ],
         "NR" => [
-            "code" => "+688", "country" => "Nauru", "continent" => "Oceania",
+            "code" => "+688", "name" => "Nauru", "continent" => "Oceania",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => [
                 ["code" => "01", "name" => "Aiwo"],
                 ["code" => "02", "name" => "Anabar"],
@@ -2706,7 +2847,8 @@
             ]
         ],
         "NP" => [
-            "code" => "+977", "country" => "Nepal", "continent" => "Asia",
+            "code" => "+977", "name" => "Nepal", "continent" => "Asia",
+            "currency" => ["name" => "Nepalese Rupee", "code" => "NPR", "number" => "524"],
             "states" => [
                 ["code" => "2", "name" => "Madhya Pashchimanchal"],
                 ["code" => "1", "name" => "Madhyamanchal"],
@@ -2716,7 +2858,8 @@
             ]
         ],
         "NL" => [
-            "code" => "+31", "country" => "Netherlands", "continent" => "Europe",
+            "code" => "+31", "name" => "Netherlands", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "DR", "name" => "Drenthe"],
                 ["code" => "FL", "name" => "Flevoland"],
@@ -2739,15 +2882,18 @@
             ]
         ],
         "AN" => [
-            "code" => "+599", "country" => "Netherlands Antilles", "continent" => "North America",
+            "code" => "+599", "name" => "Netherlands Antilles", "continent" => "North America",
+            "currency" => ["name" => "Netherlands Antillean Guilder", "code" => "ANG", "number" => "532"],
             "states" => null
         ],
         "NC" => [
-            "code" => "+687", "country" => "New Caledonia", "continent" => "Oceania",
+            "code" => "+687", "name" => "New Caledonia", "continent" => "Oceania",
+            "currency" => ["name" => "CFP Franc", "code" => "XPF", "number" => "953"],
             "states" => null
         ],
         "NZ" => [
-            "code" => "+64", "country" => "New Zealand", "continent" => "Oceania",
+            "code" => "+64", "name" => "New Zealand", "continent" => "Oceania",
+            "currency" => ["name" => "New Zealand Dollar", "code" => "NZD", "number" => "554"],
             "states" => [
                 ["code" => "N", "name" => "North Island"],
                 ["code" => "S", "name" => "South Island"],
@@ -2771,7 +2917,8 @@
             ]
         ],
         "NI" => [
-            "code" => "+505", "country" => "Nicaragua", "continent" => "North America",
+            "code" => "+505", "name" => "Nicaragua", "continent" => "North America",
+            "currency" => ["name" => "Cordoba Oro", "code" => "NIO", "number" => "558"],
             "states" => [
                 ["code" => "AN", "name" => "Atlántico Norte"],
                 ["code" => "AS", "name" => "Atlántico Sur"],
@@ -2793,7 +2940,8 @@
             ]
         ],
         "NE" => [
-            "code" => "+227", "country" => "Niger", "continent" => "Africa",
+            "code" => "+227", "name" => "Niger", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "1", "name" => "Agadez"],
                 ["code" => "2", "name" => "Diffa"],
@@ -2806,7 +2954,8 @@
             ]
         ],
         "NG" => [
-            "code" => "+234", "country" => "Nigeria", "continent" => "Africa",
+            "code" => "+234", "name" => "Nigeria", "continent" => "Africa",
+            "currency" => ["name" => "Naira", "code" => "NGN", "number" => "566"],
             "states" => [
                 ["code" => "AB", "name" => "Abia"],
                 ["code" => "FC", "name" => "Abuja Federal Capital Territory"],
@@ -2848,19 +2997,23 @@
             ]
         ],
         "NU" => [
-            "code" => "+683", "country" => "Niue", "continent" => "Oceania",
+            "code" => "+683", "name" => "Niue", "continent" => "Oceania",
+            "currency" => ["name" => "New Zealand Dollar", "code" => "NZD", "number" => "554"],
             "states" => null
         ],
         "NF" => [
-            "code" => "+672", "country" => "Norfolk Island", "continent" => "Oceania",
+            "code" => "+672", "name" => "Norfolk Island", "continent" => "Oceania",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => null
         ],
         "MP" => [
-            "code" => "+1 670", "country" => "Northern Mariana Islands", "continent" => "Oceania",
+            "code" => "+1 670", "name" => "Northern Mariana Islands", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "NO" => [
-            "code" => "+47", "country" => "Norway", "continent" => "Europe",
+            "code" => "+47", "name" => "Norway", "continent" => "Europe",
+            "currency" => ["name" => "Norwegian Krone", "code" => "NOK", "number" => "578"],
             "states" => [
                 ["code" => "02", "name" => "Akershus"],
                 ["code" => "09", "name" => "Aust-Agder"],
@@ -2886,7 +3039,8 @@
             ]
         ],
         "OM" => [
-            "code" => "+968", "country" => "Oman", "continent" => "Asia",
+            "code" => "+968", "name" => "Oman", "continent" => "Asia",
+            "currency" => ["name" => "Rial Omani", "code" => "OMR", "number" => "512"],
             "states" => [
                 ["code" => "DA", "name" => "Ad Dākhilīyah"],
                 ["code" => "BU", "name" => "Al Buraymī"],
@@ -2900,7 +3054,8 @@
             ]
         ],
         "PK" => [
-            "code" => "+92", "country" => "Pakistan", "continent" => "Asia",
+            "code" => "+92", "name" => "Pakistan", "continent" => "Asia",
+            "currency" => ["name" => "Pakistan Rupee", "code" => "PKR", "number" => "586"],
             "states" => [
                 ["code" => "JK", "name" => "Azad Kashmir"],
                 ["code" => "BA", "name" => "Balochistan"],
@@ -2913,7 +3068,8 @@
             ]
         ],
         "PW" => [
-            "code" => "+694", "country" => "Palau", "continent" => "Oceania",
+            "code" => "+694", "name" => "Palau", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "002", "name" => "Aimeliik"],
                 ["code" => "004", "name" => "Airai"],
@@ -2934,7 +3090,8 @@
             ]
         ],
         "PS" => [
-            "code" => "+970", "country" => "Palestine", "continent" => "Asia",
+            "code" => "+970", "name" => "Palestine", "continent" => "Asia",
+            "currency" => ["name" => null, "code" => null, "number" => null],
             "states" => [
                 ["code" => "BTH", "name" => "Bethlehem"],
                 ["code" => "DEB", "name" => "Deir El Balah"],
@@ -2955,7 +3112,8 @@
             ]
         ],
         "PA" => [
-            "code" => "+507", "country" => "Panama", "continent" => "North America",
+            "code" => "+507", "name" => "Panama", "continent" => "North America",
+            "currency" => ["name" => "Balboa", "code" => "PAB", "number" => "590"],
             "states" => [
                 ["code" => "1", "name" => "Bocas del Toro"],
                 ["code" => "4", "name" => "Chiriquí"],
@@ -2973,7 +3131,8 @@
             ]
         ],
         "PG" => [
-            "code" => "+675", "country" => "Papua New Guinea", "continent" => "Oceania",
+            "code" => "+675", "name" => "Papua New Guinea", "continent" => "Oceania",
+            "currency" => ["name" => "Kina", "code" => "PGK", "number" => "598"],
             "states" => [
                 ["code" => "NSB", "name" => "Bougainville"],
                 ["code" => "CPM", "name" => "Central"],
@@ -2998,7 +3157,8 @@
             ]
         ],
         "PY" => [
-            "code" => "+595", "country" => "Paraguay", "continent" => "South America",
+            "code" => "+595", "name" => "Paraguay", "continent" => "South America",
+            "currency" => ["name" => "Guarani", "code" => "PYG", "number" => "600"],
             "states" => [
                 ["code" => "16", "name" => "Alto Paraguay"],
                 ["code" => "10", "name" => "Alto Paraná"],
@@ -3021,7 +3181,8 @@
             ]
         ],
         "PE" => [
-            "code" => "+51", "country" => "Peru", "continent" => "South America",
+            "code" => "+51", "name" => "Peru", "continent" => "South America",
+            "currency" => ["name" => "Nuevo Sol", "code" => "PEN", "number" => "604"],
             "states" => [
                 ["code" => "AMA", "name" => "Amazonas"],
                 ["code" => "ANC", "name" => "Ancash"],
@@ -3052,7 +3213,8 @@
             ]
         ],
         "PH" => [
-            "code" => "+63", "country" => "Philippines", "continent" => "Asia",
+            "code" => "+63", "name" => "Philippines", "continent" => "Asia",
+            "currency" => ["name" => "Philippine Peso", "code" => "PHP", "number" => "608"],
             "states" => [
                 ["code" => "14", "name" => "Autonomous Region in Muslim Mindanao"],
                 ["code" => "05", "name" => "Bicol"],
@@ -3074,11 +3236,13 @@
             ]
         ],
         "PN" => [
-            "code" => "+872", "country" => "Pitcairn Island", "continent" => "Oceania",
+            "code" => "+872", "name" => "Pitcairn Island", "continent" => "Oceania",
+            "currency" => ["name" => "New Zealand Dollar", "code" => "NZD", "number" => "554"],
             "states" => null
         ],
         "PL" => [
-            "code" => "+48", "country" => "Poland", "continent" => "Europe",
+            "code" => "+48", "name" => "Poland", "continent" => "Europe",
+            "currency" => ["name" => "Zloty", "code" => "PLN", "number" => "985"],
             "states" => [
                 ["code" => "DS", "name" => "Dolnośląskie"],
                 ["code" => "KP", "name" => "Kujawsko-pomorskie"],
@@ -3099,7 +3263,8 @@
             ]
         ],
         "PT" => [
-            "code" => "+351", "country" => "Portugal", "continent" => "Europe",
+            "code" => "+351", "name" => "Portugal", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "01", "name" => "Aveiro"],
                 ["code" => "02", "name" => "Beja"],
@@ -3124,11 +3289,13 @@
             ]
         ],
         "PR" => [
-            "code" => "+1787", "country" => "Puerto Rico", "continent" => "North America",
+            "code" => "+1787", "name" => "Puerto Rico", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "QA" => [
-            "code" => "+974", "country" => "Qatar", "continent" => "Asia",
+            "code" => "+974", "name" => "Qatar", "continent" => "Asia",
+            "currency" => ["name" => "Qatari Rial", "code" => "QAR", "number" => "634"],
             "states" => [
                 ["code" => "DA", "name" => "Ad Dawḩah"],
                 ["code" => "KH", "name" => "Al Khawr wa adh Dhakhīrah"],
@@ -3140,11 +3307,13 @@
             ]
         ],
         "RE" => [
-            "code" => "+262", "country" => "Reunion", "continent" => "Africa",
+            "code" => "+262", "name" => "Reunion", "continent" => "Africa",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "RO" => [
-            "code" => "+40", "country" => "Romania", "continent" => "Europe",
+            "code" => "+40", "name" => "Romania", "continent" => "Europe",
+            "currency" => ["name" => "Romanian Leu", "code" => "RON", "number" => "946"],
             "states" => [
                 ["code" => "AB", "name" => "Alba"],
                 ["code" => "AR", "name" => "Arad"],
@@ -3191,7 +3360,8 @@
             ]
         ],
         "RU" => [
-            "code" => "+7", "country" => "Russian Federation", "continent" => "Europe",
+            "code" => "+7", "name" => "Russian Federation", "continent" => "Europe",
+            "currency" => ["name" => "Russian Ruble", "code" => "RUB", "number" => "643"],
             "states" => [
                 ["code" => "AMU", "name" => "Amurskaya oblast\'"],
                 ["code" => "ARK", "name" => "Arkhangel\'skaya oblast\'"],
@@ -3279,7 +3449,8 @@
             ]
         ],
         "RW" => [
-            "code" => "+250", "country" => "Rwanda", "continent" => "Africa",
+            "code" => "+250", "name" => "Rwanda", "continent" => "Africa",
+            "currency" => ["name" => "Rwanda Franc", "code" => "RWF", "number" => "646"],
             "states" => [
                 ["code" => "02", "name" => "Est"],
                 ["code" => "03", "name" => "Nord"],
@@ -3289,7 +3460,8 @@
             ]
         ],
         "SH" => [
-            "code" => "+290", "country" => "Saint Helena", "continent" => "Africa",
+            "code" => "+290", "name" => "Saint Helena", "continent" => "Africa",
+            "currency" => ["name" => "Saint Helena Pound", "code" => "SHP", "number" => "654"],
             "states" => [
                 ["code" => "AC", "name" => "Ascension"],
                 ["code" => "HL", "name" => "Saint Helena"],
@@ -3297,14 +3469,16 @@
             ]
         ],
         "KN" => [
-            "code" => "+1869", "country" => "Saint Kitts and Nevis", "continent" => "North America",
+            "code" => "+1869", "name" => "Saint Kitts and Nevis", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "N", "name" => "Nevis"],
                 ["code" => "K", "name" => "Saint Kitts"],
             ]
         ],
         "LC" => [
-            "code" => "+1758", "country" => "Saint Lucia", "continent" => "North America",
+            "code" => "+1758", "name" => "Saint Lucia", "continent" => "North America",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "01", "name" => "Anse la Raye"],
                 ["code" => "02", "name" => "Castries"],
@@ -3320,11 +3494,13 @@
             ]
         ],
         "PM" => [
-            "code" => "+508", "country" => "Saint Pierre and Miquelon", "continent" => "North America",
+            "code" => "+508", "name" => "Saint Pierre and Miquelon", "continent" => "North America",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => null
         ],
         "VC" => [
-            "code" => "+1784", "country" => "Saint Vincent and The Grenadines", "continent" => "North America",
+            "code" => "+1784", "name" => "Saint Vincent and The Grenadines", "continent" => "North America",
+            "currency" => ["name" => "", "code" => "", "number" => ""],
             "states" => [
                 ["code" => "01", "name" => "Charlotte"],
                 ["code" => "06", "name" => "Grenadines"],
@@ -3335,7 +3511,8 @@
             ]
         ],
         "WS" => [
-            "code" => "+685", "country" => "Samoa", "continent" => "Oceania",
+            "code" => "+685", "name" => "Samoa", "continent" => "Oceania",
+            "currency" => ["name" => "East Caribbean Dollar", "code" => "XCD", "number" => "951"],
             "states" => [
                 ["code" => "AA", "name" => "A\'ana"],
                 ["code" => "AL", "name" => "Aiga-i-le-Tai"],
@@ -3351,7 +3528,8 @@
             ]
         ],
         "SM" => [
-            "code" => "+374", "country" => "San Marino", "continent" => "Europe",
+            "code" => "+374", "name" => "San Marino", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "01", "name" => "Acquaviva"],
                 ["code" => "06", "name" => "Borgo Maggiore"],
@@ -3365,14 +3543,16 @@
             ]
         ],
         "ST" => [
-            "code" => "+239", "country" => "Sao Tome and Principe", "continent" => "Africa",
+            "code" => "+239", "name" => "Sao Tome and Principe", "continent" => "Africa",
+            "currency" => ["name" => "Dobra", "code" => "STN", "number" => "930"],
             "states" => [
                 ["code" => "P", "name" => "Príncipe"],
                 ["code" => "S", "name" => "São Tomé"],
             ]
         ],
         "SA" => [
-            "code" => "+966", "country" => "Saudi Arabia", "continent" => "Asia",
+            "code" => "+966", "name" => "Saudi Arabia", "continent" => "Asia",
+            "currency" => ["name" => "Saudi Riyal", "code" => "SAR", "number" => "682"],
             "states" => [
                 ["code" => "11", "name" => "Al Bāḩah"],
                 ["code" => "12", "name" => "Al Jawf"],
@@ -3390,7 +3570,8 @@
             ]
         ],
         "SN" => [
-            "code" => "+221", "country" => "Senegal", "continent" => "Africa",
+            "code" => "+221", "name" => "Senegal", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "DK", "name" => "Dakar"],
                 ["code" => "DB", "name" => "Diourbel"],
@@ -3409,14 +3590,16 @@
             ]
         ],
         "RS" => [
-            "code" => "+381", "country" => "Serbia", "continent" => "Europe",
+            "code" => "+381", "name" => "Serbia", "continent" => "Europe",
+            "currency" => ["name" => "Serbian Dinar", "code" => "RSD", "number" => "941"],
             "states" => [
                 ["code" => "KM", "name" => "Kosovo-Metohija"],
                 ["code" => "VO", "name" => "Vojvodina"],
             ]
         ],
         "SC" => [
-            "code" => "+248", "country" => "Seychelles", "continent" => "Africa",
+            "code" => "+248", "name" => "Seychelles", "continent" => "Africa",
+            "currency" => ["name" => "Seychelles Rupee", "code" => "SCR", "number" => "690"],
             "states" => [
                 ["code" => "02", "name" => "Anse Boileau"],
                 ["code" => "03", "name" => "Anse Etoile"],
@@ -3446,7 +3629,8 @@
             ]
         ],
         "SL" => [
-            "code" => "+232", "country" => "Sierra Leone", "continent" => "Africa",
+            "code" => "+232", "name" => "Sierra Leone", "continent" => "Africa",
+            "currency" => ["name" => "Leone", "code" => "SLE", "number" => "925"],
             "states" => [
                 ["code" => "E", "name" => "Eastern"],
                 ["code" => "N", "name" => "Northern"],
@@ -3455,7 +3639,8 @@
             ]
         ],
         "SG" => [
-            "code" => "+65", "country" => "Singapore", "continent" => "Asia",
+            "code" => "+65", "name" => "Singapore", "continent" => "Asia",
+            "currency" => ["name" => "Singapore Dollar", "code" => "SGD", "number" => "702"],
             "states" => [
                 ["code" => "01", "name" => "Central Singapore"],
                 ["code" => "02", "name" => "North East"],
@@ -3465,7 +3650,8 @@
             ]
         ],
         "SK" => [
-            "code" => "+421", "country" => "Slovakia", "continent" => "Europe",
+            "code" => "+421", "name" => "Slovakia", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "BC", "name" => "Banskobystrický kraj"],
                 ["code" => "BL", "name" => "Bratislavský kraj"],
@@ -3478,7 +3664,8 @@
             ]
         ],
         "SI" => [
-            "code" => "+386", "country" => "Slovenia", "continent" => "Europe",
+            "code" => "+386", "name" => "Slovenia", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "001", "name" => "Ajdovščina"],
                 ["code" => "195", "name" => "Apače"],
@@ -3693,7 +3880,8 @@
             ]
         ],
         "SB" => [
-            "code" => "+677", "country" => "Solomon Islands", "continent" => "Oceania",
+            "code" => "+677", "name" => "Solomon Islands", "continent" => "Oceania",
+            "currency" => ["name" => "Solomon Islands Dollar", "code" => "SBD", "number" => "090"],
             "states" => [
                 ["code" => "CT", "name" => "Capital Territory"],
                 ["code" => "CE", "name" => "Central"],
@@ -3708,7 +3896,8 @@
             ]
         ],
         "SO" => [
-            "code" => "+252", "country" => "Somalia", "continent" => "Africa",
+            "code" => "+252", "name" => "Somalia", "continent" => "Africa",
+            "currency" => ["name" => "Somali Shilling", "code" => "SOS", "number" => "706"],
             "states" => [
                 ["code" => "AW", "name" => "Awdal"],
                 ["code" => "BK", "name" => "Bakool"],
@@ -3731,7 +3920,8 @@
             ]
         ],
         "ZA" => [
-            "code" => "+27", "country" => "South Africa", "continent" => "Africa",
+            "code" => "+27", "name" => "South Africa", "continent" => "Africa",
+            "currency" => ["name" => "Rand", "code" => "ZAR", "number" => "710"],
             "states" => [
                 ["code" => "EC", "name" => "Eastern Cape"],
                 ["code" => "FS", "name" => "Free State"],
@@ -3745,11 +3935,13 @@
             ]
         ],
         "GS" => [
-            "code" => "+500", "country" => "South Georgia and The South Sandwich Islands", "continent" => "Antarctica",
+            "code" => "+500", "name" => "South Georgia and The South Sandwich Islands", "continent" => "Antarctica",
+            "currency" => ["name" => null, "code" => null, "number" => null],
             "states" => null
         ],
         "ES" => [
-            "code" => "+34", "country" => "Spain", "continent" => "Europe",
+            "code" => "+34", "name" => "Spain", "continent" => "Europe",
+            "currency" => ["name" => "Euro", "code" => "EUR", "number" => "978"],
             "states" => [
                 ["code" => "C", "name" => "A Coruña"],
                 ["code" => "AB", "name" => "Albacete"],
@@ -3823,7 +4015,8 @@
             ]
         ],
         "LK" => [
-            "code" => "+94", "country" => "Sri Lanka", "continent" => "Asia",
+            "code" => "+94", "name" => "Sri Lanka", "continent" => "Asia",
+            "currency" => ["name" => "Sri Lanka Rupee", "code" => "LKR", "number" => "144"],
             "states" => [
                 ["code" => "2", "name" => "Central Province"],
                 ["code" => "5", "name" => "Eastern Province"],
@@ -3837,7 +4030,8 @@
             ]
         ],
         "SD" => [
-            "code" => "+249", "country" => "Sudan", "continent" => "Africa",
+            "code" => "+249", "name" => "Sudan", "continent" => "Africa",
+            "currency" => ["name" => "Sudanese Pound", "code" => "SDG", "number" => "938"],
             "states" => [
                 ["code" => "RS", "name" => "Al Baḩr al Aḩmar"],
                 ["code" => "GZ", "name" => "Al Jazīrah"],
@@ -3859,7 +4053,8 @@
             ]
         ],
         "SR" => [
-            "code" => "+597", "country" => "Suriname", "continent" => "South America",
+            "code" => "+597", "name" => "Suriname", "continent" => "South America",
+            "currency" => ["name" => "Surinam Dollar", "code" => "SRD", "number" => "968"],
             "states" => [
                 ["code" => "BR", "name" => "Brokopondo"],
                 ["code" => "CM", "name" => "Commewijne"],
@@ -3874,7 +4069,8 @@
             ]
         ],
         "SS" => [
-            "code" => "+211", "country" => "South Sudan", "continent" => "Africa",
+            "code" => "+211", "name" => "South Sudan", "continent" => "Africa",
+            "currency" => ["name" => "South Sudanese Pound", "code" => "SSP", "number" => "728"],
             "states" => [
                 ["code" => "EC", "name" => "Central Equatoria"],
                 ["code" => "EE", "name" => "Eastern Equatoria"],
@@ -3889,11 +4085,13 @@
             ]
         ],
         "SJ" => [
-            "code" => "+79", "country" => "Svalbard and Jan Mayen Islands", "continent" => "Europe",
+            "code" => "+79", "name" => "Svalbard and Jan Mayen Islands", "continent" => "Europe",
+            "currency" => ["name" => "Norwegian Krone", "code" => "NOK", "number" => "578"],
             "states" => null
         ],
         "SZ" => [
-            "code" => "+41", "country" => "Swaziland", "continent" => "Africa",
+            "code" => "+41", "name" => "Swaziland", "continent" => "Africa",
+            "currency" => ["name" => "Lilangeni", "code" => "SZL", "number" => "748"],
             "states" => [
                 ["code" => "HH", "name" => "Hhohho"],
                 ["code" => "LU", "name" => "Lubombo"],
@@ -3902,7 +4100,8 @@
             ]
         ],
         "SE" => [
-            "code" => "+46", "country" => "Sweden", "continent" => "Europe",
+            "code" => "+46", "name" => "Sweden", "continent" => "Europe",
+            "currency" => ["name" => "Swedish Krona", "code" => "SEK", "number" => "752"],
             "states" => [
                 ["code" => "K", "name" => "Blekinge län"],
                 ["code" => "W", "name" => "Dalarnas län"],
@@ -3928,7 +4127,8 @@
             ]
         ],
         "CH" => [
-            "code" => "+41", "country" => "Switzerland", "continent" => "Europe",
+            "code" => "+41", "name" => "Switzerland", "continent" => "Europe",
+            "currency" => ["name" => "Swiss Franc", "code" => "CHF", "number" => "756"],
             "states" => [
                 ["code" => "AG", "name" => "Aargau"],
                 ["code" => "AR", "name" => "Appenzell Ausserrhoden"],
@@ -3959,7 +4159,8 @@
             ]
         ],
         "SY" => [
-            "code" => "+963", "country" => "Syrian Arab Republic", "continent" => "Asia",
+            "code" => "+963", "name" => "Syrian Arab Republic", "continent" => "Asia",
+            "currency" => ["name" => "Syrian Pound", "code" => "SYP", "number" => "760"],
             "states" => [
                 ["code" => "LA", "name" => "Al Lādhiqīyah"],
                 ["code" => "QU", "name" => "Al Qunayţirah"],
@@ -3978,7 +4179,8 @@
             ]
         ],
         "TW" => [
-            "code" => "+886", "country" => "Taiwan", "continent" => "Asia",
+            "code" => "+886", "name" => "Taiwan", "continent" => "Asia",
+            "currency" => ["name" => "New Taiwan Dollar", "code" => "TWD", "number" => "901"],
             "states" => [
                 ["code" => "CHA", "name" => "Changhua"],
                 ["code" => "CYQ", "name" => "Chiayi"],
@@ -4006,7 +4208,8 @@
             ]
         ],
         "TJ" => [
-            "code" => "+992", "country" => "Tajikistan", "continent" => "Asia",
+            "code" => "+992", "name" => "Tajikistan", "continent" => "Asia",
+            "currency" => ["name" => "Somoni", "code" => "TJS", "number" => "972"],
             "states" => [
                 ["code" => "DU", "name" => "Dushanbe"],
                 ["code" => "KT", "name" => "Khatlon"],
@@ -4015,7 +4218,8 @@
             ]
         ],
         "TZ" => [
-            "code" => "+255", "country" => "Tanzania", "continent" => "Africa",
+            "code" => "+255", "name" => "Tanzania", "continent" => "Africa",
+            "currency" => ["name" => "Tanzanian Shilling", "code" => "TZS", "number" => "834"],
             "states" => [
                 ["code" => "01", "name" => "Arusha"],
                 ["code" => "02", "name" => "Dar es Salaam"],
@@ -4046,7 +4250,8 @@
             ]
         ],
         "TH" => [
-            "code" => "+66", "country" => "Thailand", "continent" => "Asia",
+            "code" => "+66", "name" => "Thailand", "continent" => "Asia",
+            "currency" => ["name" => "Baht", "code" => "THB", "number" => "764"],
             "states" => [
                 ["code" => "37", "name" => "Amnat Charoen"],
                 ["code" => "15", "name" => "Ang Thong"],
@@ -4129,7 +4334,8 @@
             ]
         ],
         "TL" => [
-            "code" => "+670", "country" => "Timor-leste", "continent" => "Asia",
+            "code" => "+670", "name" => "Timor-leste", "continent" => "Asia",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "AL", "name" => "Aileu"],
                 ["code" => "AN", "name" => "Ainaro"],
@@ -4147,7 +4353,8 @@
             ]
         ],
         "TG" => [
-            "code" => "+228", "country" => "Togo", "continent" => "Africa",
+            "code" => "+228", "name" => "Togo", "continent" => "Africa",
+            "currency" => ["name" => "CFA Franc BCEAO", "code" => "XOF", "number" => "952"],
             "states" => [
                 ["code" => "C", "name" => "Centre"],
                 ["code" => "K", "name" => "Kara"],
@@ -4157,11 +4364,13 @@
             ]
         ],
         "TK" => [
-            "code" => "+690", "country" => "Tokelau", "continent" => "Oceania",
+            "code" => "+690", "name" => "Tokelau", "continent" => "Oceania",
+            "currency" => ["name" => "New Zealand Dollar", "code" => "NZD", "number" => "554"],
             "states" => null
         ],
         "TO" => [
-            "code" => "+676", "country" => "Tonga", "continent" => "Oceania",
+            "code" => "+676", "name" => "Tonga", "continent" => "Oceania",
+            "currency" => ["name" => "", "code" => "", "number" => ""],
             "states" => [
                 ["code" => "01", "name" => "\'Eua"],
                 ["code" => "02", "name" => "Ha\'apai"],
@@ -4171,7 +4380,8 @@
             ]
         ],
         "TT" => [
-            "code" => "+1 868", "country" => "Trinidad and Tobago", "continent" => "North America",
+            "code" => "+1 868", "name" => "Trinidad and Tobago", "continent" => "North America",
+            "currency" => ["name" => "Pa’anga", "code" => "TOP", "number" => "776"],
             "states" => [
                 ["code" => "ARI", "name" => "Arima"],
                 ["code" => "CHA", "name" => "Chaguanas"],
@@ -4192,7 +4402,8 @@
             ]
         ],
         "TN" => [
-            "code" => "+216", "country" => "Tunisia", "continent" => "Africa",
+            "code" => "+216", "name" => "Tunisia", "continent" => "Africa",
+            "currency" => ["name" => "Tunisian Dinar", "code" => "TND", "number" => "788"],
             "states" => [
                 ["code" => "12", "name" => "Ariana"],
                 ["code" => "13", "name" => "Ben Arous"],
@@ -4221,7 +4432,8 @@
             ]
         ],
         "TR" => [
-            "code" => "+90", "country" => "Turkey", "continent" => "Asia",
+            "code" => "+90", "name" => "Turkey", "continent" => "Asia",
+            "currency" => ["name" => "Turkish Lira", "code" => "TRY", "number" => "949"],
             "states" => [
                 ["code" => "01", "name" => "Adana"],
                 ["code" => "02", "name" => "Adıyaman"],
@@ -4307,7 +4519,8 @@
             ]
         ],
         "TM" => [
-            "code" => "+993", "country" => "Turkmenistan", "continent" => "Asia",
+            "code" => "+993", "name" => "Turkmenistan", "continent" => "Asia",
+            "currency" => ["name" => "Turkmenistan New Manat", "code" => "TMT", "number" => "934"],
             "states" => [
                 ["code" => "A", "name" => "Ahal"],
                 ["code" => "S", "name" => "Aşgabat"],
@@ -4318,11 +4531,13 @@
             ]
         ],
         "TC" => [
-            "code" => "+1 649", "country" => "Turks and Caicos Islands", "continent" => "North America",
+            "code" => "+1 649", "name" => "Turks and Caicos Islands", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "TV" => [
-            "code" => "+688", "country" => "Tuvalu", "continent" => "Oceania",
+            "code" => "+688", "name" => "Tuvalu", "continent" => "Oceania",
+            "currency" => ["name" => "Australian Dollar", "code" => "AUD", "number" => "036"],
             "states" => [
                 ["code" => "FUN", "name" => "Funafuti"],
                 ["code" => "NMG", "name" => "Nanumanga"],
@@ -4335,7 +4550,8 @@
             ]
         ],
         "UG" => [
-            "code" => "+256", "country" => "Uganda", "continent" => "Africa",
+            "code" => "+256", "name" => "Uganda", "continent" => "Africa",
+            "currency" => ["name" => "Uganda Shilling", "code" => "UGX", "number" => "800"],
             "states" => [
                 ["code" => "C", "name" => "Central"],
                 ["code" => "E", "name" => "Eastern"],
@@ -4344,7 +4560,8 @@
             ]
         ],
         "UA" => [
-            "code" => "+380", "country" => "Ukraine", "continent" => "Europe",
+            "code" => "+380", "name" => "Ukraine", "continent" => "Europe",
+            "currency" => ["name" => "Hryvnia", "code" => "UAH", "number" => "980"],
             "states" => [
                 ["code" => "43", "name" => "Avtonomna Respublika Krym"],
                 ["code" => "71", "name" => "Cherkas\'ka Oblast\'"],
@@ -4376,7 +4593,8 @@
             ]
         ],
         "AE" => [
-            "code" => "+971", "country" => "United Arab Emirates", "continent" => "Asia",
+            "code" => "+971", "name" => "United Arab Emirates", "continent" => "Asia",
+            "currency" => ["name" => "UAE Dirham", "code" => "AED", "number" => "784"],
             "states" => [
                 ["code" => "AJ", "name" => "\'Ajmān"],
                 ["code" => "AZ", "name" => "Abū Z̧aby"],
@@ -4388,7 +4606,8 @@
             ]
         ],
         "GB" => [
-            "code" => "+44", "country" => "United Kingdom", "continent" => "Europe",
+            "code" => "+44", "name" => "United Kingdom", "continent" => "Europe",
+            "currency" => ["name" => "Pound Sterling", "code" => "GBP", "number" => "826"],
             "states" => [
                 ["code" => "BDG", "name" => "Barking and Dagenham"],
                 ["code" => "BNE", "name" => "Barnet"],
@@ -4632,7 +4851,8 @@
             ]
         ],
         "US" => [
-            "code" => "+1", "country" => "United States", "continent" => "North America",
+            "code" => "+1", "name" => "United States", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "DC", "name" => "District of Columbia"],
                 ["code" => "AS", "name" => "American Samoa"],
@@ -4694,7 +4914,8 @@
             ]
         ],
         "UM" => [
-            "code" => "+808", "country" => "United States Minor Outlying Islands", "continent" => "Oceania",
+            "code" => "+808", "name" => "United States Minor Outlying Islands", "continent" => "Oceania",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => [
                 ["code" => "81", "name" => "Baker Island"],
                 ["code" => "84", "name" => "Howland Island"],
@@ -4708,7 +4929,8 @@
             ]
         ],
         "UY" => [
-            "code" => "+598", "country" => "Uruguay", "continent" => "South America",
+            "code" => "+598", "name" => "Uruguay", "continent" => "South America",
+            "currency" => ["name" => "Peso Uruguayo", "code" => "UYU", "number" => "858"],
             "states" => [
                 ["code" => "AR", "name" => "Artigas"],
                 ["code" => "CA", "name" => "Canelones"],
@@ -4732,7 +4954,8 @@
             ]
         ],
         "UZ" => [
-            "code" => "+998", "country" => "Uzbekistan", "continent" => "Asia",
+            "code" => "+998", "name" => "Uzbekistan", "continent" => "Asia",
+            "currency" => ["name" => "Uzbekistan Sum", "code" => "UZS", "number" => "860"],
             "states" => [
                 ["code" => "AN", "name" => "Andijon"],
                 ["code" => "BU", "name" => "Buxoro"],
@@ -4751,7 +4974,8 @@
             ]
         ],
         "VU" => [
-            "code" => "+678", "country" => "Vanuatu", "continent" => "Oceania",
+            "code" => "+678", "name" => "Vanuatu", "continent" => "Oceania",
+            "currency" => ["name" => "Vatu", "code" => "VUV", "number" => "548"],
             "states" => [
                 ["code" => "MAP", "name" => "Malampa"],
                 ["code" => "PAM", "name" => "Pénama"],
@@ -4762,7 +4986,8 @@
             ]
         ],
         "VE" => [
-            "code" => "+58", "country" => "Venezuela", "continent" => "South America",
+            "code" => "+58", "name" => "Venezuela", "continent" => "South America",
+            "currency" => ["name" => "Bolivar", "code" => "VEF", "number" => "937"],
             "states" => [
                 ["code" => "Z", "name" => "Amazonas"],
                 ["code" => "B", "name" => "Anzoátegui"],
@@ -4792,7 +5017,8 @@
             ]
         ],
         "VN" => [
-            "code" => "+84", "country" => "Vietnam", "continent" => "Asia",
+            "code" => "+84", "name" => "Vietnam", "continent" => "Asia",
+            "currency" => ["name" => "Dong", "code" => "VND", "number" => "704"],
             "states" => [
                 ["code" => "44", "name" => "An Giang"],
                 ["code" => "43", "name" => "Bà Rịa–Vũng Tàu"],
@@ -4861,23 +5087,28 @@
             ]
         ],
         "VG" => [
-            "code" => "+1284", "country" => "Virgin Islands, British", "continent" => "North America",
+            "code" => "+1284", "name" => "Virgin Islands, British", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "VI" => [
-            "code" => "+1340", "country" => "Virgin Islands, U.S.", "continent" => "North America",
+            "code" => "+1340", "name" => "Virgin Islands, U.S.", "continent" => "North America",
+            "currency" => ["name" => "US Dollar", "code" => "USD", "number" => "840"],
             "states" => null
         ],
         "WF" => [
-            "code" => "+681", "country" => "Wallis and Futuna", "continent" => "Oceania",
+            "code" => "+681", "name" => "Wallis and Futuna", "continent" => "Oceania",
+            "currency" => ["name" => "CFP Franc", "code" => "XPF", "number" => "953"],
             "states" => null
         ],
         "EH" => [
-            "code" => "+212", "country" => "Western Sahara", "continent" => "Africa",
+            "code" => "+212", "name" => "Western Sahara", "continent" => "Africa",
+            "currency" => ["name" => "Moroccan Dirham", "code" => "MAD", "number" => "504"],
             "states" => null
         ],
         "YE" => [
-            "code" => "+967", "country" => "Yemen", "continent" => "Asia",
+            "code" => "+967", "name" => "Yemen", "continent" => "Asia",
+            "currency" => ["name" => "Yemeni Rial", "code" => "YER", "number" => "886"],
             "states" => [
                 ["code" => "AD", "name" => "\'Adan"],
                 ["code" => "AM", "name" => "\'Amrān"],
@@ -4903,7 +5134,8 @@
             ]
         ],
         "ZM" => [
-            "code" => "+260", "country" => "Zambia", "continent" => "Africa",
+            "code" => "+260", "name" => "Zambia", "continent" => "Africa",
+            "currency" => ["name" => "Zambian Kwacha", "code" => "ZMW", "number" => "967"],
             "states" => [
                 ["code" => "02", "name" => "Central"],
                 ["code" => "08", "name" => "Copperbelt"],
@@ -4917,7 +5149,8 @@
             ]
         ],
         "ZW" => [
-            "code" => "+263", "country" => "Zimbabwe", "continent" => "Africa",
+            "code" => "+263", "name" => "Zimbabwe", "continent" => "Africa",
+            "currency" => ["name" => "Zimbabwe Dollar", "code" => "ZWL", "number" => "932"],
             "states" => [
                 ["code" => "BU", "name" => "Bulawayo"],
                 ["code" => "HA", "name" => "Harare"],
